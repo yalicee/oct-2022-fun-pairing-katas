@@ -32,7 +32,6 @@ You are testing **'interfaces not implementations'** - you care only about what 
 - areOrdered
 - middleChar
 - checkUsernames
-- getMostRepeated
 - maxAndMin
 - sumArgs
 - range
@@ -43,6 +42,7 @@ You are testing **'interfaces not implementations'** - you care only about what 
 - getYearsOfGrowth
 - getDistinctLetters
 - getFrequencies
+- getMostRepeated
 - lengthenDate
 - caesarCipher
 
