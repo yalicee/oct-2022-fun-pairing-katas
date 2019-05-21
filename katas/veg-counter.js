@@ -9,7 +9,7 @@
   {name: 'Onion', type: 'bulb', quantity: 3},
   {name: 'Chard', type: 'leaf', quantity: 3},
   {name: 'Runner beans', type: 'legume', quantity: 8}
-], 'root')
+], 'root') should return 9
 */
 
 function countVeg() {}
