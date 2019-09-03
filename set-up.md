@@ -8,7 +8,7 @@
 
 ## Configure your user settings
 
-- In VSCode, go to Preferences -> Settings -> More Actions (...) -> 'Open Settings.json', and paste the following object into user settings:
+- In VSCode, go to Preferences -> Settings. Depending on your version of VSCode, either click one of the icons on the top right, or click on the tab to open `Settings.json`. Paste the following JSON object in - these are our recommended settings for working on VSCode. If you have any of your own preferences feel free to add or adapt them here!
 
 ```json
 {
