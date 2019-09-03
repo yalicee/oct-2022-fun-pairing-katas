@@ -8,7 +8,7 @@
 
 ## Configure your user settings
 
-- In VSCode, go to Preferences -> Settings -> More Actions (...) -> 'Open Settings.json', and paste the following object into user settings:
+- In VSCode, go to Preferences -> Settings -> Click on the first icon in the top right hand corner that looks like a folded page -> 'Open Settings.json', and paste the following object into user settings:
 
 ```json
 {
