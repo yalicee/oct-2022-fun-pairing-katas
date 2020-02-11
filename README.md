@@ -23,12 +23,12 @@ You are testing **'interfaces not implementations'** - you care only about what 
 5. Run `npm test` to run every test in your `spec` folder. Whenever you get one or two done, swap your pair roles!
 6. Below is a suggested order in which to do the katas, but it isn't compulsory to follow it. Feel free to pick one you like the sound of too! 
 
-- orderVeg
 - sumDigits
 - vegCounter
 - alternateCase
 - getCentury
 - areOrdered
+- orderVeg
 - middleChar
 - checkUsernames
 - maxAndMin
