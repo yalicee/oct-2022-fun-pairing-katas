@@ -24,11 +24,16 @@ describe("sumDigits", () => {
   E.g. sumDigits(123) should output 6
 
   HINT: Remember to see the test *fail* first, then write the code to pass the test
+
+  Why this test?  
+  A multi-digit input means you now have to implement to 'addition' part of this function,
+  but you don't have to think about the logic for dealing with/ignoring non-digit characters yet
+  (that's for our next test!)
   */
 
   /*
   Once you have successfully passed the above test, then you can write your next test.
-  A good next test might be to check that your function handles digits correctly (i.e. ignores them)
+  A good next test might be to check that your function handles non-numerical characters correctly (i.e. ignores them)
   
   E.g. sumDigits(10.5) should output 6
   */
