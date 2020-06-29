@@ -1,19 +1,18 @@
-const sumDigits = require("../katas/sum-digits");
-const { expect } = require("chai");
+const sumDigits = require('../katas/sum-digits');
 
-describe("sumDigits", () => {
-  it("returns input number when passed single digit number", () => {
+describe('sumDigits', () => {
+  test('Returns input number when passed single digit number', () => {
     const input = 1;
     const expectedOutput = 1;
     const actualOutput = sumDigits(input);
-    expect(actualOutput).to.equal(expectedOutput);
+    expect(actualOutput).toBe(expectedOutput);
 
     // We can write two expect statements in one it-block if we want to check different examples!
     // This it-block will fail if any of the expect statements fail
     const input2 = 9;
     const expectedOutput2 = 9;
     const actualOutput2 = sumDigits(input2);
-    expect(actualOutput2).to.equal(expectedOutput2);
+    expect(actualOutput2).toBe(expectedOutput2);
   });
 
   /*

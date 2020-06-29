@@ -1,13 +1,13 @@
-const middleChar = require("../katas/middle-char");
-const { expect } = require("chai");
+const middleChar = require('../katas/middle-char');
 
-describe("middleChar", () => {
-  it("returns empty string when passed an empty string", () => {
-    const input = "";
-    const expectedOutput = "";
+describe('middleChar', () => {
+  test('returns empty string when passed an empty string', () => {
+    const input = '';
+    const expectedOutput = '';
     const actualOutput = middleChar(input);
-    expect(actualOutput).to.equal(expectedOutput);
+    expect(actualOutput).toBe(expectedOutput);
   });
+
   /*
   Once you have got the first test passing, then you can write your next one.
   A good next test might be to check that your function returns the whole input if input length is less than 3:
