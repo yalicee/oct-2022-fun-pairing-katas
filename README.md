@@ -16,12 +16,11 @@ You are testing **'interfaces not implementations'** - you care only about what 
 
 ## Pairing katas tasks
 
-1. Make sure that you are in the main directory for the repo and run `npm init -y` to set-up your project.
-2. Run `npm install --save-dev jest` to get necessary testing dependencies
-3. In your katas folder you will find a `*.js` file for each problem that needs solving. You can write your solution code here.
-4. Each kata will need a `*.test.js` file associated with it, in the `__tests__` folder. You can write tests for your code here! You will need to import the function using `const <functionName> = require('../path/to/function')`. For example: `const sumDigits = require('../katas/sum-digits.js')`
-5. Run `npm test` to run every test in your `__tests__` folder. Whenever you get one or two tests done, swap your pair roles!
-6. Below is a suggested order in which to do the katas, but it isn't compulsory. We'd recommend starting with `sumDigits` and `middleChar` as we have provided ideas for tests for these two, but otherwise feel free to pick any you like the sound of!
+1. Follow the set-up instructions in `setup.md`.
+2. In your katas folder you will find a `*.js` file for each problem that needs solving. You can write your solution code here.
+3. Each kata will need a `*.test.js` file associated with it, in the `__tests__` folder. You can write tests for your code here! You will need to import the function using `const <functionName> = require('../path/to/function')`. For example: `const sumDigits = require('../katas/sum-digits.js')`
+4. Run `npm test` to run every test in your `__tests__` folder. Whenever you get one or two tests done, swap your pair roles!
+5. Below is a suggested order in which to do the katas, but it isn't compulsory. We'd recommend starting with `sumDigits` and `middleChar` as we have provided ideas for tests for these two, but otherwise feel free to pick any you like the sound of!
 
 - sumDigits (_we've provided some ideas for tests for this one_)
 - middleChar (_we've provided some ideas for tests for this one too_)
