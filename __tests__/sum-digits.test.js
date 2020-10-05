@@ -1,7 +1,7 @@
 const sumDigits = require('../katas/sum-digits');
 
-describe('sumDigits', () => {
-  test('Returns input number when passed single digit number', () => {
+describe('sumDigits', function () {
+  test('Returns input number when passed single digit number', function () {
     const input = 1;
     const expectedOutput = 1;
     const actualOutput = sumDigits(input);
