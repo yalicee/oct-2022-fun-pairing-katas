@@ -1,7 +1,7 @@
 const middleChar = require('../katas/middle-char');
 
-describe('middleChar', () => {
-  test('returns empty string when passed an empty string', () => {
+describe('middleChar', function () {
+  test('returns empty string when passed an empty string', function () {
     const input = '';
     const expectedOutput = '';
     const actualOutput = middleChar(input);
