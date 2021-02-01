@@ -15,9 +15,9 @@ The purpose of these exercises is to practice your TDD skills and to adjust to t
 
 In your pairs, take turns being driver and navigator. Use git and the command line to handle sharing your repo, and switch to your machine when you switch drivers.
 
-The goal of your tests in to ensure your functions return the correct output when given a range of inputs.
+The goal of your tests is to ensure your functions return the correct output when given a range of inputs.
 
-The most important thing to test is that your function functions in the way it should! When you are confident that your function behaves as any reasonable user would expect it to, you should consider **edge cases** where the function may have to deal with extreme, unexpected, unusual or incorrect inputs - but focus on the _'happy path'_ first!
+The most important thing to test is that your function behaves in the way it should! When you are confident that your function behaves as any reasonable user would expect it to, you should consider **edge cases** where the function may have to deal with extreme, unexpected, unusual or incorrect inputs - but focus on the _'happy path'_ first!
 
 You are testing **'interfaces not implementations'** - you care only about what your function returns when given some input. You should not try to test what exactly is happening inside the function or that people are using it in the correct way, just test that it returns the correct results for a range of different inputs.
 
