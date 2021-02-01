@@ -14,13 +14,15 @@
 - Add the files you want to commit to the staging area by typing `git add` followed by the files and folders you wish to commit (for example, `git add index.js`).
 - To commit, type `git commit -m 'my beautiful commit message'` followed by a short description of the functionality you have achieved since your last commit.
 - Resolve any issues that are preventing you from committing.
-- To push to github, type `git push origin master`.
+- To push to github, type `git push origin main`.
 
 ## To pull from a repo your pair has worked on
 
 - Ensure you are in the project git folder on your computer.
 - Ensure your pair's push has succeeded.
-- Type `git pull origin master` to pull any changes that have been made to your repo.
+- Type `git pull origin main` to pull any changes that have been made to your repo.
+
+# The below instructions should be avoided until after the second lecture today!
 
 ## Setup your node project from scratch
 
