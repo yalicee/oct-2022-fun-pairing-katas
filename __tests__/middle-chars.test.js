@@ -1,14 +1,24 @@
 const middleChar = require('../katas/middle-char');
 
-describe('middleChar', function () {
-  test('returns empty string when passed an empty string', function () {
-    const input = '';
-    const expectedOutput = '';
-    const actualOutput = middleChar(input);
-    expect(actualOutput).toBe(expectedOutput);
-  });
+// Tests for middleChar
+// NOTE: the tests below use a function called JSON.stringify - this is just there to
+// preserve the output array brackets in the printed string.  You don't have to worry about using this yourself.
 
-  /*
+// TEST 1 - middleChar returns an empty string when passed an empty string
+console.log(
+  'TEST 1 - middleChar returns an empty string when passed an empty string\n'
+);
+let input = '';
+let expectedOutput = '';
+let actualOutput = middleChar(input);
+
+console.log(
+  `I expect ${JSON.stringify(actualOutput)} to equal ${JSON.stringify(
+    expectedOutput
+  )} \n`
+);
+
+/*
   Once you have got the first test passing, then you can write your next one.
   A good next test might be to check that your function returns the whole input if input length is less than 3:
 
@@ -20,7 +30,7 @@ describe('middleChar', function () {
   but we haven't jumped to extracting it middle values yet
   */
 
-  /*
+/*
   Once you have got that test passing, then you can write your next one.
   A good next test might be to check that your function returns the single middle character when passed an odd-length string:
 
@@ -31,7 +41,7 @@ describe('middleChar', function () {
   but with odd length strings we don't yet have the complexity of having to extract out two if it's an even input
   */
 
-  /*
+/*
   Once you have got the first test passing, then you can write your next one.
   A good next test might be to check that your function returns the two middle characters when passed an even-length string:
 
@@ -41,7 +51,7 @@ describe('middleChar', function () {
   We need to be sure our function works for even length strings as well as odd.
   */
 
-  /*
+/*
   Once you have got the first test passing, then you can write your next one.
   A good next test might be to check that your function returns correct characters, ignoring whitespace:
 
@@ -52,10 +62,9 @@ describe('middleChar', function () {
   such as ignoring whitespace (this test) and ignoring special characters (next test). 
   */
 
-  /*
+/*
   Once you have got the first test passing, then you can write your next one.
   A good next test might be to check that your function returns correct characters, ignoring special characters:
 
   E.g. middleChar('Northcoders!!') should output 'c'
   */
-});

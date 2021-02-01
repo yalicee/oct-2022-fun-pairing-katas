@@ -1,21 +1,36 @@
 const sumDigits = require('../katas/sum-digits');
 
-describe('sumDigits', function () {
-  test('Returns input number when passed single digit number', function () {
-    const input = 1;
-    const expectedOutput = 1;
-    const actualOutput = sumDigits(input);
-    expect(actualOutput).toBe(expectedOutput);
+// Tests for sumDigits
+// NOTE: the tests below use a function called JSON.stringify - this is just there to
+// preserve the output array brackets in the printed string.  You don't have to worry about using this yourself.
 
-    // We can write two expect statements in one it-block if we want to check different examples!
-    // This it-block will fail if any of the expect statements fail
-    const input2 = 9;
-    const expectedOutput2 = 9;
-    const actualOutput2 = sumDigits(input2);
-    expect(actualOutput2).toBe(expectedOutput2);
-  });
+// TEST 1 - sumDigits returns the input number when passed a single digit number
+// This test has two ASSERTIONS being made
+// The same behaviour is being tested but with different inputs - 1 and 9
+console.log(
+  'TEST 1 - sumDigits returns the input number when passed a single digit number\n'
+);
+let input = 1;
+let expectedOutput = 1;
+let actualOutput = sumDigits(input);
 
-  /*
+console.log(
+  `I expect ${JSON.stringify(actualOutput)} to equal ${JSON.stringify(
+    expectedOutput
+  )} \n`
+);
+
+// Second ASSERTION for TEST 1
+input = 9;
+expectedOutput = 9;
+actualOutput = sumDigits(input);
+console.log(
+  `I expect ${JSON.stringify(actualOutput)} to equal ${JSON.stringify(
+    expectedOutput
+  )} \n`
+);
+
+/*
   Once you have got the first test passing, then you can write your next one.
   If you've already handled a single digit, your next test could test for multi-digit inputs.
 
@@ -30,10 +45,9 @@ describe('sumDigits', function () {
   (that's for our next test!)
   */
 
-  /*
+/*
   Once you have successfully passed the above test, then you can write your next test.
   A good next test might be to check that your function handles non-numerical characters correctly (i.e. ignores them)
   
   E.g. sumDigits(10.5) should output 6
   */
-});
