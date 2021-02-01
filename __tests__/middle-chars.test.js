@@ -5,6 +5,9 @@ const middleChar = require('../katas/middle-char');
 // preserve the output array brackets in the printed string.  You don't have to worry about using this yourself.
 
 // TEST 1 - middleChar returns an empty string when passed an empty string
+console.log(
+  'TEST 1 - middleChar returns an empty string when passed an empty string\n'
+);
 let input = '';
 let expectedOutput = '';
 let actualOutput = middleChar(input);

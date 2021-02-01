@@ -8,7 +8,7 @@ const sumDigits = require('../katas/sum-digits');
 // This test has two ASSERTIONS being made
 // The same behaviour is being tested but with different inputs - 1 and 9
 console.log(
-  'TEST 1 - sumDigits returns the input number when passed a single digit number'
+  'TEST 1 - sumDigits returns the input number when passed a single digit number\n'
 );
 let input = 1;
 let expectedOutput = 1;
