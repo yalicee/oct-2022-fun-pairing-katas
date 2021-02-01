@@ -32,6 +32,7 @@ You are testing **'interfaces not implementations'** - you care only about what 
 
 This afternoon:
 You'll be running tests differently - Run `npm test` to run every test in your `__tests__` folder.
+Feel free to return to some of the assertions you wrote this morning and convert to make use of `jest`
 
 - Whenever you get one or two tests done, swap your pair roles!
 
