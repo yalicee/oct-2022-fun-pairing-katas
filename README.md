@@ -36,7 +36,7 @@ Feel free to return to some of the assertions you wrote this morning and convert
 
 - Whenever you get one or two tests done, swap your pair roles!
 
-5. Below is a suggested order in which to do the katas, but it isn't compulsory. We'd recommend starting with `sumDigits` and `middleChar` as we have provided ideas for tests for these two, but otherwise feel free to pick any you like the sound of!
+5. Below is a suggested order in which to do the katas, but it isn't compulsory. **Start with `sumDigits` and `middleChar` as we have provided ideas for tests for these two!**
 
 - sumDigits (_we've provided some ideas for tests for this one_)
 - middleChar (_we've provided some ideas for tests for this one too_)
