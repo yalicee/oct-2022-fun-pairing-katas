@@ -2,11 +2,8 @@
 
 Welcome to your first day of Pairing Katas, and your first sprint!
 
-> After today's **second** lecture:
-> Check out the `post-lecture` directory with an evaluation task you can discuss and work on with your partner. Add comments in this file to answer each of the questions.
->
+> Check out the `post-lecture` directory with an evaluation task to work on. Add comments in this file to answer each of the questions.
 > ❗ Please don't spend longer than 15 mins on this task ❗ 🕥
-
 
 Check out `setup.md` to get started. If you're on GitHub, there's a link to it above here. If you're on VSCode, find it in the Explorer to the left.
 
@@ -25,20 +22,10 @@ You are testing **'interfaces not implementations'** - you care only about what 
 1. Follow the set-up instructions in `setup.md`.
 2. In your katas folder you will find a `*.js` file for each problem that needs solving. You can write your solution code here.
 3. Each kata will need a `*.test.js` file associated with it, in the `__tests__` folder. You can write tests for your code here! You will need to import the function using `const <functionName> = require('../path/to/function')`. For example: `const sumDigits = require('../katas/sum-digits.js')`
-4. This morning:
-
-- Check the results of your assertions by running the test file associated with your kata with node. For example `node __tests__/sum-digits.test.js`
-
-This afternoon:
-You'll be running tests differently - Run `npm test` to run every test in your `__tests__` folder.
-Feel free to return to some of the assertions you wrote this morning and convert to make use of `jest`
-
-- Whenever you get one or two tests done, swap your pair roles!
-
-5. Below is a suggested order in which to do the katas, but it isn't compulsory. **Start with `sumDigits` and `middleChar` as we have provided ideas for tests for these two!**
+4. Run `npm test` to run every test in your `__tests__` folder. Whenever you get one or two tests done, swap your pair roles!
+5. Below is a suggested order in which to do the katas, but it isn't compulsory. **Start with `sumDigits` as we have provided ideas for tests for this one**
 
 - sumDigits (_we've provided some ideas for tests for this one_)
-- middleChar (_we've provided some ideas for tests for this one too_)
 - vegCounter
 - alternateCase
 - getCentury

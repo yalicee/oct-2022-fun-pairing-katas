@@ -1,34 +1,15 @@
 const sumDigits = require('../katas/sum-digits');
 
 // Tests for sumDigits
-// NOTE: the tests below use a function called JSON.stringify - this is just there to
-// preserve the output array brackets in the printed string.  You don't have to worry about using this yourself.
 
-// TEST 1 - sumDigits returns the input number when passed a single digit number
-// This test has two ASSERTIONS being made
-// The same behaviour is being tested but with different inputs - 1 and 9
-console.log(
-  'TEST 1 - sumDigits returns the input number when passed a single digit number\n'
-);
-let input = 1;
-let expectedOutput = 1;
-let actualOutput = sumDigits(input);
+/*
+  TEST 1 - sumDigits returns the input number when passed a single digit number
+  This test has two ASSERTIONS being made
+  The same behaviour is being tested but with different inputs - 1 and 9
 
-console.log(
-  `I expect ${JSON.stringify(actualOutput)} to equal ${JSON.stringify(
-    expectedOutput
-  )} \n`
-);
-
-// Second ASSERTION for TEST 1
-input = 9;
-expectedOutput = 9;
-actualOutput = sumDigits(input);
-console.log(
-  `I expect ${JSON.stringify(actualOutput)} to equal ${JSON.stringify(
-    expectedOutput
-  )} \n`
-);
+  E.g. sumDigits(1) should output 1
+  E.g. sumDigits(9) should output 9
+*/
 
 /*
   Once you have got the first test passing, then you can write your next one.
@@ -43,11 +24,11 @@ console.log(
   A multi-digit input means you now have to implement to 'addition' part of this function,
   but you don't have to think about the logic for dealing with/ignoring non-digit characters yet
   (that's for our next test!)
-  */
+*/
 
 /*
   Once you have successfully passed the above test, then you can write your next test.
   A good next test might be to check that your function handles non-numerical characters correctly (i.e. ignores them)
   
   E.g. sumDigits(10.5) should output 6
-  */
+*/

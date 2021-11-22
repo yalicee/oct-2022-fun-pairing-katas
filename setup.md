@@ -22,8 +22,6 @@
 - Ensure your pair's push has succeeded.
 - Type `git pull origin main` to pull any changes that have been made to your repo.
 
-# The below instructions should be avoided until after the second lecture today!
-
 ## Setup your node project from scratch
 
 Make sure you are in your project directory!
