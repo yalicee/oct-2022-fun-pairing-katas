@@ -2,9 +2,6 @@
 
 Welcome to your first day of Pairing Katas, and your first sprint!
 
-> Check out the `post-lecture` directory with an evaluation task to work on. Add comments in this file to answer each of the questions.
-> ❗ Please don't spend longer than 15 mins on this task ❗ 🕥
-
 Check out `setup.md` to get started. If you're on GitHub, there's a link to it above here. If you're on VSCode, find it in the Explorer to the left.
 
 The purpose of these exercises is to practice your TDD skills and to adjust to the idea of properly pair programming.
