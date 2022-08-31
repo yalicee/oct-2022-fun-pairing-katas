@@ -2,7 +2,7 @@
   The function countVeg should take an array of vegetables and a string of the type of vegetable and return the total quantity of that type of vegetable in the array.
   Vegetable types can be root, leaf, legume, bulb or brassica.
   e.g.
-  vegCounter([
+  countVeg([
   {name: 'Parsnip', type: 'root', quantity: 4},
   {name: 'Broccoli', type: 'brassica', quantity: 1},
   {name: 'Carrot', type: 'root', quantity: 5},

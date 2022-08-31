@@ -22,26 +22,26 @@ You are testing **'interfaces not implementations'** - you care only about what 
 4. Run `npm test` to run every test in your `__tests__` folder. Whenever you get one or two tests done, swap your pair roles!
 5. Below is a suggested order in which to do the katas, but it isn't compulsory. **Start with `sumDigits` as we have provided ideas for tests for this one**
 
-- sumDigits (_we've provided some ideas for tests for this one_)
-- vegCounter
-- alternateCase
-- getCentury
-- areOrdered
-- orderVeg
-- checkUsernames
-- maxAndMin
-- sumArgs
-- range
-- removeDuplicates
-- sumAscii
-- mergeArrays
-- checkStudents
-- getYearsOfGrowth
-- getDistinctLetters
-- getFrequencies
-- getMostRepeated
-- lengthenDate
-- caesarCipher
+-   sumDigits (_we've provided some ideas for tests for this one_)
+-   countVeg
+-   alternateCase
+-   getCentury
+-   areOrdered
+-   orderVeg
+-   checkUsernames
+-   maxAndMin
+-   sumArgs
+-   range
+-   removeDuplicates
+-   sumAscii
+-   mergeArrays
+-   checkStudents
+-   getYearsOfGrowth
+-   getDistinctLetters
+-   getFrequencies
+-   getMostRepeated
+-   lengthenDate
+-   caesarCipher
 
 ## Resources
 
