@@ -9,6 +9,14 @@ countTo(0,10,2) --> '0,2,4,6,8,10'
 The step value must always be positive. If the start is higher than the end, it should return an empty string.
 */
 
-function countTo() {}
+function countTo(start = 0, end, step = 1) {
+  let count = [];
+  for (let i = start; i <= end; i += step) {
+    count.push(i);
+  }
+  console.log(count);
+}
+
+countTo(0, 10, 3);
 
 module.exports = countTo;
