@@ -8,23 +8,29 @@
   double(4) --> 8
 */
 
-// binary functions
-// function add(a, b) {
-//   return a + b;
-// }
+//binary functions
+function add(a, b) {
+  return a + b;
+}
 
-// function mul(a, b) {
-//   return a * b;
-// }
+function mul(a, b) {
+  return a * b;
+}
 
-// function subtract (a, b) {
-//   return a - b;
-// }
+function subtract(a, b) {
+  return a - b;
+}
 
-// function divide (a, b) {
-//   return a / b;
-// }
+function divide(a, b) {
+  return a / b;
+}
 
-function curry() {}
+function curry(binary, x) {
+  return (innerCurry = (y) => {
+    return binary(x, y);
+  });
+}
+
+const add3 = curry(add, 3);
 
 module.exports = curry;
