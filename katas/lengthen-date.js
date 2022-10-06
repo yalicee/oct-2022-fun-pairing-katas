@@ -16,19 +16,31 @@ function lengthenDate(date) {
   }
   if (day.endsWith("1")) {
     suffix = "st";
-    console.log(suffix);
   } else if (day.endsWith("2")) {
     suffix = "nd";
-    console.log(suffix);
   } else if (day.endsWith("3")) {
     suffix = "rd";
-    console.log(suffix);
   } else {
     suffix = "th";
   }
-  const birthday = new Date("October 06, 2022");
-  console.log(birthday.getDay());
-  const dayNumber = birthday.getDay();
+  const months = {
+    01: "January",
+    02: "February",
+    03: "March",
+    04: "April",
+    05: "May",
+    06: "June",
+    07: "July",
+    08: "August",
+    09: "September",
+    10: "October",
+    11: "November",
+    12: "December",
+  };
+  const monthWord = months[+month];
+  const returnDay = new Date(`${monthWord} ${day} ${year}`);
+  const dayNumber = returnDay.getDay();
+
   const weekday = {
     1: "Monday",
     2: "Tuesday",
@@ -39,10 +51,11 @@ function lengthenDate(date) {
     7: "Sunday",
   };
 
-  console.log(weekday[dayNumber]);
-  return `${day}${suffix} `;
+  const dayOfTheWeek = weekday[dayNumber];
+
+  return `${dayOfTheWeek} ${day}${suffix} ${monthWord} ${year}`;
 }
 
-lengthenDate(`21.03.2017`);
+console.log(lengthenDate("06.10.2022"));
 
 module.exports = lengthenDate;
